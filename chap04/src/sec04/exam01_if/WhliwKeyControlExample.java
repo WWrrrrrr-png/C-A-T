@@ -24,8 +24,9 @@ public class WhliwKeyControlExample {
                //in 속성은 유저가 입력 할수있는 속성	> 입력 후 >임시저장소에 전달 >리드메세지출력 
 			//버퍼라는 임시기억저장소에 저장된다 .임시기억장소에서 저장된 값을 하나 읽어 온다 
 			//숫자 키 1을 입력을 하고 엔터를 치면, 임시 기억장소에는 1의 아스키코드 값 49 
-			//엔터값 10+13
-			keyCode = System.in.read(); 
+			//엔터값 10+13 
+			//임시기억장소가 비워져 있으면 ,키를 입력할 수 있는 환경을 제공
+			keyCode = System.in.read(); //read 매서는 게
 			System.out.println("임시기억장소에 읽은 코드값: " + keyCode);
 			    //키를 
 			if (keyCode == 49) {
