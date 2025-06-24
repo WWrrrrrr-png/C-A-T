@@ -1,0 +1,10 @@
+ackage sec01.exam01_variable;
+
+sealed class VariableScopeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

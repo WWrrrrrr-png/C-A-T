@@ -1,0 +1,14 @@
+package sec02.exam02_char;
+
+public class CharExample {
+
+	public static void main(String[] args) {
+		//char: 하나의 문자 저장 하지만 정수형 데이터 타입
+		//CHAR는 작은 따옴표
+		//ASCI코드이다 그냥 문자 아님 내부에는 숫자 숨겨짐 
+		char c1 ='A'; 
+		
+		
+	}
+
+}

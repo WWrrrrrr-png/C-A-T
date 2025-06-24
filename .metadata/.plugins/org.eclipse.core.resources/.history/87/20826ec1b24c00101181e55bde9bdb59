@@ -1,0 +1,26 @@
+package sec03.exam02_promotion;
+
+public class PromotionExample {
+
+	public static void main(String[] args) {
+		// promotion 묵시적(내부적으로 알아서 스스로) 형변환  
+		//데이터 타입 크기 순서 정수데이터타입 < 실수형데이터타입 
+		// big = small
+	 byte byteValue =10; 
+	 int intValue = byteValue; //int intValue =(int) byteValue;
+	 
+	 System.out.println(intValue); 
+	 char charValue = '카'; 
+	 intValue= charValue; 
+	 System.out.println(" 카의 유니코드"+intValue);
+	
+	intValue=500; 
+	 long longValue = intValue;  
+	 System.out.println(longValue);
+	
+	intValue = 200; 
+	double doubleValue = intValue; 
+	System.out.println(intValue);
+	}
+
+}

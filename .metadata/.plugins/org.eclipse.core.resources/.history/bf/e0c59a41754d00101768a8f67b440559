@@ -1,0 +1,23 @@
+package sec03.exam01_sign;
+
+public class SignOperatorExample {
+
+	public static void main(String[] args) {
+		//  
+		int x = -100; 
+		int result1 = +x; 
+		
+		int result2= -x; 
+		System.out.println("result1: "+result1);
+		System.out.println("result2: "+result2);
+		
+		short s =100; 
+		int result3 = -s;
+		//short result3 = -s;  short -음수 이면 int 재해석 
+		//부호연산자 산출은 int
+		System.out.println(result3);
+		
+		
+	}
+
+}

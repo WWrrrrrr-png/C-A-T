@@ -1,0 +1,41 @@
+package datakind;
+
+public class DataExample {
+
+	public static void main(String[] args) {
+		// char 
+		
+		String a = "catarinakim"; 
+		System.out.println(a); 
+
+		int b = -123;
+		int result = b + 10;
+		System.out.println(result);  
+       
+	   char what = 'ㅊ';  
+	  
+	   System.out.println(what);
+	     
+	   float 	D = 0123456789F; 
+	    
+	   System.out.println(D); 
+	   
+	   short F = -32768; 
+	   short result2 = F ;  
+	 
+	   byte H = -128; 
+	   byte result3 = H;
+	   
+	   double R = 0.47485478d; 
+	   
+	   long J = -497539752975957L; 
+	   long result5 = J - 250;
+       
+	   System.out.println(J);
+	   System.out.println(R);
+	   System.out.println(result2); 
+	   System.out.println(result3);
+		
+	}
+
+}

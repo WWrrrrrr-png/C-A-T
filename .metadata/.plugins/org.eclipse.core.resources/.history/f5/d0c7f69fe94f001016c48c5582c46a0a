@@ -1,0 +1,10 @@
+package esc06.exam02_array.bynew;
+
+public class ArrayCreateByValueListExample3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

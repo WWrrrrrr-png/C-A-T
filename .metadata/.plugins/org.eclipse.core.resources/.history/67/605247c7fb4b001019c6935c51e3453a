@@ -1,0 +1,16 @@
+package sec01.exam01_variable;
+
+public class LiteralExample {
+
+	public static void main(String[] args) {
+		int what1 = 10; 
+		System.out.println(what01);
+
+		int what2 = 010; 
+		System.out.print(what2); 
+		
+		int what3 = 0*10;
+		System.out.print(what3);
+	}
+
+}

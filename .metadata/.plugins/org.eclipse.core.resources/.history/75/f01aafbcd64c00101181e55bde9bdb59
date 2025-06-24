@@ -1,0 +1,21 @@
+package sec03.exam01_arthmertic;
+
+public class AccuracyExample {
+
+	public static void main(String[] args) {
+		// 부동소숫점 오차에 대한 문제발생하는 예제 
+		//사과 한개를 0.7을 뺀 나머지 조각은? 
+		
+		int apple =1; 
+		double pieceUnit = 0.1; 
+		int number = 7; 
+		
+		double result = apple - number * pieceUnit; 
+		
+		System.out.println("사과 한개에서"); 
+		System.out.println("0.7조각의 빼면");
+		System.out.println(result + "조각이 남는다");
+
+	}
+
+}

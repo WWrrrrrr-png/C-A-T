@@ -1,0 +1,21 @@
+package sec03.exam03_accuracy;
+
+public class FromIntToDouble2 {
+
+	public static void main(String[] args) {
+		// 연산에 따른 형변환
+		int num1 =12345678; 
+		int num2 =12345678; 
+		
+		//자동형 변환(묵시적)
+		float num3 = num2; 
+		//casting
+		num2 =(int)num3;//num3 = float 실수값을 정수로 형변환시 실수값이고 num2는 정수 값이라서 casting시 실수의 부동소숫점 손실 
+	    
+	int result = num1 -num2; 
+	System.out.println(result);
+		System.out.println(num3);  
+		System.out.println(num2);
+	}
+
+}

@@ -1,0 +1,34 @@
+package sec03.exam02_promotion;
+
+public class CastingExample {
+
+	public static void main(String[] args) {
+		// casting 명시적 형변환은 강제적 형변환 기존의 바이트 유지x 
+		//쓰는 경우는 코딩을 하다가 여상치 못하게 값이 변환이 되는 경우 사용
+        // samll 데이터 타입 = big데이터 타입 
+		
+	   
+		int intValue = 44032; 
+		char charValue = (char) intValue; //자바에서는 큰 데이터 타입은 작은 테이더 타입x 당연한거 결국 값은 손실
+		                 //(char) 마우스 드래그 add 
+		int unicode = charValue;
+		
+		System.out.println(charValue);
+		System.out.println(unicode);
+	   
+		long longValue = 500; 
+		intValue = (short)longValue; //이렇게 하면 1.short로 변환하고 2.int로 두번 변환 비효율 
+		System.out.println(intValue);
+		
+		long longValue0 = 500; 
+		intValue = (int)longValue0; 
+		
+		System.out.println(intValue);
+		
+		double doubleValue = 3.14; 
+		intValue =(int)doubleValue; 
+		System.out.println(intValue);
+		
+	}
+
+}

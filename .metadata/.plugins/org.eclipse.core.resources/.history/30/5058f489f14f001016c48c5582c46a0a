@@ -1,0 +1,31 @@
+package esc06.exam02_array.bynew;
+
+public class ArrayCreateByValueListExample3 {
+
+    public static void main(String[] args) {
+        
+        // 정수형 배열 선언: 스택에는 참조변수 array1, 힙에는 3칸짜리 int 배열 생성 (0으로 자동 초기화)
+        int[] arr1 = new int[3]; // 3칸 * 4바이트 = 12바이트 할당
+
+        // 초기 상태 출력 (0으로 초기화된 상태)
+        for (int i = 0; i < 3; i++) {
+            System.out.println("array1[" + i + "] : " + arr1[i]);
+        }
+
+        // 배열 값 변경
+        arr1[0] = 10;
+        arr1[1] = 20;
+        arr1[2] = 30;
+
+        // 변경 후 출력
+        for (int i = 0; i < 3; i++) {
+            System.out.println("array1[" + i + "] : " + arr1[i]);
+        }
+     double[] arr2 = new double[3]; 
+     for(int i=0; i<3; i++) { 
+    	 
+    	System.out.println("array1[" + i + "] : " + arr2[i]);
+     }
+    
+    }
+}

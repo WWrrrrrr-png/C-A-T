@@ -1,0 +1,10 @@
+package sec05.exam06_boolan;
+
+public class BoolanExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

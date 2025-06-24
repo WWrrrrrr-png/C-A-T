@@ -1,0 +1,22 @@
+package sec04.exam03_compare;
+
+public class CompareOperatorExample2 {
+
+	public static void main(String[] args) {
+		// 형변환 
+		
+		int v2 = 1; 
+		double v3 = 1.0;  
+		
+		//int현 데이터 타입은 double실수형데이터 타입을 따라감 형변환
+		System.out.println(v2 == v3); 
+		
+		//보이기에는 같아보여도 비트의 범위 때문에 false
+		double v4 =0.1; 
+		float v5 = 0.1F; 
+		System.out.println(v4 == v5); 
+		System.out.println((float)v4 == v5);
+
+	}
+
+}

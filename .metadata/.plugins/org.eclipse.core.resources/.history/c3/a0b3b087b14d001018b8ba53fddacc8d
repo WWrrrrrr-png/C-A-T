@@ -1,0 +1,39 @@
+package sec04.exam01_if;
+
+public class IfElseIfElseExample {
+
+	public static void main(String[] args) {
+		// if ~ elseif~조건문 
+		// score= 75 
+		//score 변수의 값이 90이상 A ,80이상 B,70이상 c 나머지 D 
+		
+		int score = 75; 
+		
+//		if(score<=90) {
+//			System.out.println("점수는" + score);
+//			
+//		
+//		}else if(score <= 80){
+//			System.out.println("점수는" + score); 
+//			
+//		}else if(score<=70){
+//			  
+//			System.out.println("점수는" + score);
+//		}else{
+//			  
+//			System.out.println("점수는" + score);
+//		}  
+		
+		String result = ""; 
+		
+		if(score >=90) { 
+			result= "A";
+		} else if(score >= 80) { 
+			result ="B"; 
+		} else if (score )
+		
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package sec03.exam01_arthmertic;
+
+public class InfinityAndNanCheckExample {
+
+	public static void main(String[] args) {
+		// InfinityAndNan 
+		
+		int x =5; 
+		double y= 0.0; 
+	   
+		double z = x/y; //infinity로 정의 된 값을 변수 z에 대입
+		System.out.println("z의 값은?" +z); 
+		System.out.println(Double.isFinite(z)); //
+		System.out.println(Double.isNaN(z)); // 숫자로 인식X false
+	
+		
+		System.out.println(z + 2); 
+		
+		if (Double.isInfinite(z) || Double.isNaN(z)) { 
+			System.out.println("값 산출불가");
+		} else { 
+			System.out.println(z+2);
+		}
+	
+	}
+
+}
