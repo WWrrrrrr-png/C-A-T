@@ -1,0 +1,24 @@
+package sec06.exam07_array_copy;
+
+public class ArrayCopyExample {
+
+	public static void main(String[] args) {
+		//원본배열 
+		int[]oldStrArray= {1,2,3}; 
+		
+		//사본배열
+		int[]newStrArray= new int[5]; 
+		
+//		newStrArray[0] = oldStrArray [0]; 너무 지저분한 코드
+//		newStrArray[1] = oldStrArray [2];
+//		newStrArray[2] = oldStrArray [2];
+
+		
+		for(int i=0; i<newStrArray.length; i++) {
+//			newStrArray[i] = oldStrArray[i]; 
+			
+			System.out.print(newStrArray[i]+ " ,");
+		}
+	}
+
+}

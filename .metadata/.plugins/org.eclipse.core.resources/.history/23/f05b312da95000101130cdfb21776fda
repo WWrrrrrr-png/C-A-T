@@ -1,0 +1,10 @@
+package sec06.exam06_array_reference_object;
+
+public class ArrayReferenceObjectExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

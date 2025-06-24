@@ -1,0 +1,28 @@
+package sec06.exam07_main_agument;
+
+public class AdancedForExample {
+
+	public static void main(String[] args) {
+		//  
+		
+		
+		int[] scores = {95,71,84,93,87}; 
+		
+		int sum = 0; 
+		
+		//향상된 for문 
+		
+		for(int scroes : scores) {
+		
+		sum = sum + scroes;
+		} 
+		
+		System.out.println("합계: "+ sum); 
+		
+		double avg = (double) sum / scores.length; 
+		
+		System.out.println("합계: " + avg);
+
+	}
+
+}
